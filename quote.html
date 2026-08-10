@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Get A Quote | Red Canyon Remodeling LLC</title>
+
+    <meta
+        name="description"
+        content="Tell Red Canyon Remodeling LLC about your project and get a personalized quote for remodeling and construction services in Arizona."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        .quote-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+        }
+
+        .quote-info h3 {
+            font-family: var(--heading);
+            font-weight: 800;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            margin: 26px 0 8px;
+        }
+
+        .quote-info p,
+        .quote-info a {
+            color: var(--gray);
+            line-height: 1.6;
+        }
+
+        .quote-info a {
+            color: var(--black);
+        }
+
+        .quote-form {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .quote-form label {
+            font-family: var(--heading);
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: .8rem;
+            letter-spacing: .05em;
+            margin-bottom: 6px;
+            display: block;
+        }
+
+        .quote-form input,
+        .quote-form select,
+        .quote-form textarea {
+            width: 100%;
+            padding: 14px 16px;
+            border: 1px solid var(--gray-light);
+            font-family: var(--body);
+            font-size: .95rem;
+            background: var(--white);
+        }
+
+        .quote-form textarea {
+            min-height: 130px;
+            resize: vertical;
+        }
+
+        .quote-form button {
+            margin-top: 8px;
+            border: none;
+            cursor: pointer;
+        }
+
+        @media (max-width: 900px) {
+            .quote-layout {
+                grid-template-columns: 1fr;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+<header class="site-header" id="siteHeader">
+
+    <div class="nav-container">
+
+
+        <!-- LOGO -->
+
+        <a href="index.html" class="brand">
+
+            <img
+                src="images/red-canyon-logo.png"
+                alt="Red Canyon Remodeling LLC"
+            >
+
+        </a>
+
+
+        <!-- DESKTOP NAVIGATION -->
+
+        <nav class="main-nav">
+
+
+            <!-- WHO WE ARE -->
+
+            <div class="nav-dropdown">
+
+                <a
+                    href="who-we-are.html"
+                    class="nav-link"
+                >
+                    Who We Are
+                    <span class="arrow">+</span>
+                </a>
+
+
+                <div class="mega-menu">
+
+                    <div class="mega-intro">
+
+                        <span class="menu-label">
+                            WHO WE ARE
+                        </span>
+
+                        <h3>
+                            Built on<br>
+                            <span>Trust.</span>
+                        </h3>
+
+                        <p>
+                            Get to know the people, values and
+                            philosophy behind Red Canyon Remodeling.
+                        </p>
+
+                        <a
+                            href="who-we-are.html"
+                            class="menu-main-link"
+                        >
+                            Explore Who We Are →
+                        </a>
+
+                    </div>
+
+
+                    <div class="mega-links">
+
+                        <a href="who-we-are.html">
+                            <span>01</span>
+                            About Red Canyon
+                        </a>
+
+                        <a href="who-we-are.html#values">
+                            <span>02</span>
+                            Our Values
+                        </a>
+
+                        <a href="who-we-are.html#team">
+                            <span>03</span>
+                            Our Team
+                        </a>
+
+                        <a href="who-we-are.html#why-us">
+                            <span>04</span>
+                            Why Red Canyon
+                        </a>
+
+                        <a href="who-we-are.html#approach">
+                            <span>05</span>
+                            Our Approach
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- WHAT WE DO -->
+
+            <div class="nav-dropdown">
+
+                <a
+                    href="what-we-do.html"
+                    class="nav-link"
+                >
+                    What We Do
+                    <span class="arrow">+</span>
+                </a>
+
+
+                <div class="mega-menu mega-services">
+
+                    <div class="mega-intro">
+
+                        <span class="menu-label">
+                            WHAT WE DO
+                        </span>
+
+                        <h3>
+                            We Build.<br>
+                            <span>We Transform.</span>
+                        </h3>
+
+                        <p>
+                            Remodeling and construction solutions
+                            designed around your property and your goals.
+                        </p>
+
+                        <a
+                            href="what-we-do.html"
+                            class="menu-main-link"
+                        >
+                            Explore Our Services →
+                        </a>
+
+                    </div>
+
+
+                    <div class="mega-links">
+
+                        <a href="kitchen-remodeling.html">
+                            <span>01</span>
+                            Kitchen Remodeling
+                        </a>
+
+                        <a href="bathroom-remodeling.html">
+                            <span>02</span>
+                            Bathroom Remodeling
+                        </a>
+
+                        <a href="what-we-do.html#interior">
+                            <span>03</span>
+                            Interior Remodeling
+                        </a>
+
+                        <a href="what-we-do.html#exterior">
+                            <span>04</span>
+                            Exterior Remodeling
+                        </a>
+
+                        <a href="whole-home.html">
+                            <span>05</span>
+                            Whole Home Renovation
+                        </a>
+
+                        <a href="what-we-do.html#custom">
+                            <span>06</span>
+                            Custom Remodeling
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CONTRACTORS -->
+
+            <div class="nav-dropdown">
+
+                <a
+                    href="contractors.html"
+                    class="nav-link"
+                >
+                    Contractors
+                    <span class="arrow">+</span>
+                </a>
+
+
+                <div class="mega-menu">
+
+                    <div class="mega-intro">
+
+                        <span class="menu-label">
+                            CONTRACTORS & TRADE PARTNERS
+                        </span>
+
+                        <h3>
+                            Build<br>
+                            <span>With Us.</span>
+                        </h3>
+
+                        <p>
+                            Interested in working with Red Canyon?
+                            Learn about our trade partnerships.
+                        </p>
+
+                        <a
+                            href="contractors.html"
+                            class="menu-main-link"
+                        >
+                            Contractor Opportunities →
+                        </a>
+
+                    </div>
+
+
+                    <div class="mega-links">
+
+                        <a href="contractors.html">
+                            <span>01</span>
+                            Trade Partners
+                        </a>
+
+                        <a href="contractors.html#who">
+                            <span>02</span>
+                            Who We Work With
+                        </a>
+
+                        <a href="contractors.html#offers">
+                            <span>03</span>
+                            What We Offer
+                        </a>
+
+                        <a href="contractors.html#requirements">
+                            <span>04</span>
+                            Partner Requirements
+                        </a>
+
+                        <a href="contractors.html#application">
+                            <span>05</span>
+                            Partner Application
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ARIZONA -->
+
+            <div class="nav-dropdown">
+
+                <a
+                    href="arizona.html"
+                    class="nav-link"
+                >
+                    Arizona
+                    <span class="arrow">+</span>
+                </a>
+
+
+                <div class="mega-menu">
+
+                    <div class="mega-intro">
+
+                        <span class="menu-label">
+                            OUR SERVICE AREA
+                        </span>
+
+                        <h3>
+                            Proudly<br>
+                            <span>Arizona.</span>
+                        </h3>
+
+                        <p>
+                            Discover the communities and areas
+                            where Red Canyon serves homeowners.
+                        </p>
+
+                        <a
+                            href="arizona.html"
+                            class="menu-main-link"
+                        >
+                            Explore Arizona →
+                        </a>
+
+                    </div>
+
+
+                    <div class="mega-links">
+
+                        <a href="arizona.html#areas">
+                            <span>01</span>
+                            Areas We Serve
+                        </a>
+
+                        <a href="arizona.html#phoenix">
+                            <span>02</span>
+                            Phoenix
+                        </a>
+
+                        <a href="arizona.html#scottsdale">
+                            <span>03</span>
+                            Scottsdale
+                        </a>
+
+                        <a href="arizona.html#east-valley">
+                            <span>04</span>
+                            East Valley
+                        </a>
+
+                        <a href="arizona.html#west-valley">
+                            <span>05</span>
+                            West Valley
+                        </a>
+
+                        <a href="arizona.html#other">
+                            <span>06</span>
+                            Other Arizona Communities
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- OUR STORY -->
+
+            <div class="nav-dropdown">
+
+                <a
+                    href="our-story.html"
+                    class="nav-link"
+                >
+                    Our Story
+                    <span class="arrow">+</span>
+                </a>
+
+
+                <div class="mega-menu">
+
+                    <div class="mega-intro">
+
+                        <span class="menu-label">
+                            OUR STORY
+                        </span>
+
+                        <h3>
+                            Where We<br>
+                            <span>Started.</span>
+                        </h3>
+
+                        <p>
+                            The people, experiences and milestones
+                            that shaped Red Canyon Remodeling.
+                        </p>
+
+                        <a
+                            href="our-story.html"
+                            class="menu-main-link"
+                        >
+                            Discover Our Story →
+                        </a>
+
+                    </div>
+
+
+                    <div class="mega-links">
+
+                        <a href="our-story.html#beginning">
+                            <span>01</span>
+                            Our Beginning
+                        </a>
+
+                        <a href="our-story.html#journey">
+                            <span>02</span>
+                            Our Journey
+                        </a>
+
+                        <a href="our-story.html#milestones">
+                            <span>03</span>
+                            Milestones
+                        </a>
+
+                        <a href="our-story.html#people">
+                            <span>04</span>
+                            The People Behind Red Canyon
+                        </a>
+
+                        <a href="our-story.html#today">
+                            <span>05</span>
+                            Red Canyon Today
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PROJECTS -->
+
+            <div class="nav-dropdown">
+
+                <a
+                    href="projects.html"
+                    class="nav-link"
+                >
+                    Projects
+                    <span class="arrow">+</span>
+                </a>
+
+
+                <div class="mega-menu">
+
+                    <div class="mega-intro">
+
+                        <span class="menu-label">
+                            OUR WORK
+                        </span>
+
+                        <h3>
+                            See What<br>
+                            <span>We Build.</span>
+                        </h3>
+
+                        <p>
+                            Explore completed projects, transformations
+                            and remodeling work.
+                        </p>
+
+                        <a
+                            href="projects.html"
+                            class="menu-main-link"
+                        >
+                            View All Projects →
+                        </a>
+
+                    </div>
+
+
+                    <div class="mega-links">
+
+                        <a href="projects.html#featured">
+                            <span>01</span>
+                            Featured Projects
+                        </a>
+
+                        <a href="kitchen-remodeling.html">
+                            <span>02</span>
+                            Kitchen Projects
+                        </a>
+
+                        <a href="bathroom-remodeling.html">
+                            <span>03</span>
+                            Bathroom Projects
+                        </a>
+
+                        <a href="whole-home.html">
+                            <span>04</span>
+                            Whole Home
+                        </a>
+
+                        <a href="before-after.html">
+                            <span>05</span>
+                            Before & After
+                        </a>
+
+                        <a href="projects.html#stories">
+                            <span>06</span>
+                            Project Stories
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </nav>
+
+
+
+        <!-- CTA -->
+
+        <a
+            href="quote.html"
+            class="header-cta"
+        >
+            Get A Quote
+        </a>
+
+
+        <!-- MOBILE BUTTON -->
+
+        <button
+            class="mobile-toggle"
+            id="mobileToggle"
+            aria-label="Open menu"
+        >
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+    </div>
+
+
+    <!-- MOBILE NAV -->
+
+    <div
+        class="mobile-menu"
+        id="mobileMenu"
+    >
+
+        <a href="who-we-are.html">
+            WHO WE ARE
+        </a>
+
+        <a href="what-we-do.html">
+            WHAT WE DO
+        </a>
+
+        <a href="contractors.html">
+            CONTRACTORS
+        </a>
+
+        <a href="arizona.html">
+            ARIZONA
+        </a>
+
+        <a href="our-story.html">
+            OUR STORY
+        </a>
+
+        <a href="projects.html">
+            PROJECTS
+        </a>
+
+        <a
+            href="quote.html"
+            class="mobile-cta"
+        >
+            GET A QUOTE
+        </a>
+
+    </div>
+
+</header>
+
+
+
+<main>
+
+    <section class="page-hero">
+        <div class="container page-hero-inner">
+
+            <div class="page-breadcrumb">
+                <a href="index.html">Home</a> / Get A Quote
+            </div>
+
+            <h1>READY TO<br><span>REIMAGINE YOUR SPACE?</span></h1>
+
+            <p>
+                Tell us about your project and let's start the conversation.
+                We'll follow up to discuss scope, timeline and next steps.
+            </p>
+
+        </div>
+    </section>
+
+
+    <section class="content-section">
+        <div class="container quote-layout">
+
+            <div class="quote-info">
+
+                <span class="section-label">GET IN TOUCH</span>
+
+                <h3>Phone</h3>
+                <p><a href="tel:+16025550000">(602) 555-0000</a></p>
+
+                <h3>Email</h3>
+                <p><a href="mailto:info@redcanyonremodeling.com">info@redcanyonremodeling.com</a></p>
+
+                <h3>Service Area</h3>
+                <p>Phoenix, Scottsdale, Mesa, Chandler, Gilbert & the greater Arizona area.</p>
+
+                <h3>Response Time</h3>
+                <p>We typically respond to new inquiries within 1–2 business days.</p>
+
+            </div>
+
+            <form class="quote-form" onsubmit="event.preventDefault(); alert('Thanks — this form is a preview and is not yet connected to send messages.');">
+
+                <div>
+                    <label for="q-name">Full Name</label>
+                    <input type="text" id="q-name" name="name" required>
+                </div>
+
+                <div>
+                    <label for="q-email">Email</label>
+                    <input type="email" id="q-email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="q-phone">Phone</label>
+                    <input type="tel" id="q-phone" name="phone">
+                </div>
+
+                <div>
+                    <label for="q-service">Project Type</label>
+                    <select id="q-service" name="service">
+                        <option>Kitchen Remodeling</option>
+                        <option>Bathroom Remodeling</option>
+                        <option>Whole Home Remodeling</option>
+                        <option>Additions & Expansions</option>
+                        <option>General Contracting</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="q-message">Tell us about your project</label>
+                    <textarea id="q-message" name="message" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-red">SUBMIT REQUEST →</button>
+
+            </form>
+
+        </div>
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="container footer-grid">
+
+
+        <div class="footer-brand">
+
+            <img
+                src="images/red-canyon-logo.png"
+                alt="Red Canyon Remodeling LLC"
+            >
+
+            <p>
+                Remodeling with purpose.
+                Building with pride.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h4>
+                WHO WE ARE
+            </h4>
+
+            <a href="who-we-are.html">
+                About Red Canyon
+            </a>
+
+            <a href="who-we-are.html#values">
+                Our Values
+            </a>
+
+            <a href="who-we-are.html#team">
+                Our Team
+            </a>
+
+            <a href="our-story.html">
+                Our Story
+            </a>
+
+        </div>
+
+
+        <div>
+
+            <h4>
+                WHAT WE DO
+            </h4>
+
+            <a href="what-we-do.html">
+                All Services
+            </a>
+
+            <a href="kitchen-remodeling.html">
+                Kitchen Remodeling
+            </a>
+
+            <a href="bathroom-remodeling.html">
+                Bathroom Remodeling
+            </a>
+
+            <a href="whole-home.html">
+                Whole Home
+            </a>
+
+        </div>
+
+
+        <div>
+
+            <h4>
+                CONNECT
+            </h4>
+
+            <a href="projects.html">
+                Projects
+            </a>
+
+            <a href="contractors.html">
+                Contractors
+            </a>
+
+            <a href="arizona.html">
+                Arizona
+            </a>
+
+            <a href="quote.html">
+                Get A Quote
+            </a>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="container footer-bottom">
+
+        <span>
+            © 2026 Red Canyon Remodeling LLC
+        </span>
+
+        <span>
+            All Rights Reserved.
+        </span>
+
+    </div>
+
+</footer>
+
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
